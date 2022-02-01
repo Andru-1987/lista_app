@@ -1,0 +1,74 @@
+.newsContainer{
+    
+    height: 90vh;
+    display:grid;
+    grid-template-columns:3fr 5fr;
+    gap:10px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0 10px 10px 10px;
+    
+}
+
+.mainSimple{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    text-align: justify;
+    padding:4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.mainSimple p{
+    font-size: 1rem;
+    height: 100%;
+}
+
+.textBelow{
+    font-size: 10px;
+}
+
+.mainSimple h2{
+    font-size: medium;
+}
+
+/* ------------------------------ */
+
+
+.mainPreview{
+
+    overflow-y: scroll;
+    width:100%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+
+.item{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    
+}
+.item div{
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+.item p, .item a{
+    text-overflow: ellipsis;
+    direction: ltr;
+    
+}
+
+.item a:visited, .item a:link{
+    color: currentColor;
+}

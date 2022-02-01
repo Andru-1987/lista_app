@@ -1,0 +1,268 @@
+
+{
+    "status": "ok",
+    "totalResults": 348684,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Lifehacker.com"
+        },
+        "author": "Stephen Johnson",
+        "title": "How to Spot a COVID Testing Scam",
+        "description": "This week, the Better Business Bureau issued a warning about the proliferation of COVID testing scams. According to the BBB, fake websites and janky in-person testing centers are using COVID testing as an excuse to steal people’s personal and insurance inform…",
+        "url": "https://lifehacker.com/how-to-spot-a-covid-testing-scam-1848385940",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/2032590f81f2dd789cef323980584ed7.jpg",
+        "publishedAt": "2022-01-19T20:00:00Z",
+        "content": "This week, the Better Business Bureau issued a warning about the proliferation of COVID testing scams. According to the BBB, fake websites and janky in-person testing centers are using COVID testing … [+2881 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Lifehacker.com"
+        },
+        "author": "Meredith Dietz",
+        "title": "When Can People With Long COVID Return to Exercising?",
+        "description": "Returning to exercise after any physical setback is tough. You trust yourself to listen to your body, but it’s also tempting to get back out there before you’ve fully recovered. However, jumping back into your fitness routine too soon can cause more harm than…",
+        "url": "https://lifehacker.com/when-can-people-with-long-covid-return-to-exercising-1848399068",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/ddbec9107eb0d8495d1fd21439d9198c.jpg",
+        "publishedAt": "2022-01-21T16:30:00Z",
+        "content": "Returning to exercise after any physical setback is tough. You trust yourself to listen to your body, but its also tempting to get back out there before youve fully recovered. However, jumping back i… [+6130 chars]"
+      },
+      {
+        "source": {
+          "id": "engadget",
+          "name": "Engadget"
+        },
+        "author": "Bryan Menegus",
+        "title": "Amazon cuts paid COVID-19 leave for workers in half",
+        "description": "Amazon, the second-largest employer in the US, announced today that it would be slashing its paid leave policies for workers forced to quarantine in half. The policy, instituted in March of 2020, previously provided for up to 14 days of paid leave; the new po…",
+        "url": "https://www.engadget.com/amazon-covid-leave-policy-reduction-213033841.html",
+        "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-01/8c0d1780-6ffd-11ec-926d-c138fd36e4c0",
+        "publishedAt": "2022-01-07T21:30:33Z",
+        "content": "Amazon, the second-largest employer in the US, announced today that it would be slashing its paid leave policies for workers forced to quarantine in half. The policy, instituted in March of 2020, pre… [+2391 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Medea Giordano",
+        "title": "How to Order Free At-Home Covid-19 Tests",
+        "description": "The US government is finally sending 4 at-home tests to every household. Here's how to get yours, and how to troubleshoot common problems.",
+        "url": "https://www.wired.com/story/how-to-get-free-covid-19-tests/",
+        "urlToImage": "",
+        "publishedAt": "2022-01-21T19:24:00Z",
+        "content": "We're nearing two years since we first grasped the scale of the Covid-19 pandemic. Despite the brief moment this summer when it felt like we were nearly back to normal, the Omicron variant is surging… [+3729 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Matt Jancer",
+        "title": "How to Get a Covid-19 Booster Shot",
+        "description": "Here is everything you need to know about finding and receiving the booster shot in the age of Omicron.",
+        "url": "https://www.wired.com/story/how-to-find-a-covid-booster-shot/",
+        "urlToImage": "https://media.wired.com/photos/61f06d377e1d5d6f07fba61a/191:100/w_1280,c_limit/Gear-Where-to-Get-Booster-1357859000.jpg",
+        "publishedAt": "2022-01-26T12:00:00Z",
+        "content": "Back to Table of Contents\r\nLike the initial vaccines, booster shots are typically covered by your health insurance, but it pays to check with your provider and the office before you commit to an appo… [+3165 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Grace Browne",
+        "title": "Pregnant People Are Still Not Getting Vaccinated Against Covid",
+        "description": "Misinformation and muddled public health messaging have failed expectant parents. Now Omicron's surge is putting both carriers and babies at risk.",
+        "url": "https://www.wired.com/story/pregnant-people-still-not-getting-vaccinated-covid/",
+        "urlToImage": "https://media.wired.com/photos/61e0a474844ec857b7138274/191:100/w_1280,c_limit/Science_pregnant_vaccine_GettyImages-1211125659.jpg",
+        "publishedAt": "2022-01-14T12:00:00Z",
+        "content": "Calendar year three into the pandemic, and vaccination coverage among pregnant people remains staggeringly low. \r\nAccording to data from the US Centers for Disease Control and Prevention, as of Janua… [+3008 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "Annie Correal, Daniel Guillemette, Asthaa Chaturvedi, Mooj Zadie, Marc Georges, Lisa Chow, Marion Lozano and Dan Powell",
+        "title": "This Covid Surge Feels Different",
+        "description": "Despite its reputation for mild illness, the Omicron variant is fueling a staggering rise in hospitalizations. Here’s what doctors are seeing.",
+        "url": "https://www.nytimes.com/2022/01/11/podcasts/the-daily/omicron-surge-hospitals.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/01/11/podcasts/11daily-1/merlin_199919835_9284a2c5-db5c-43bf-b283-49c6830f9e9d-facebookJumbo.jpg",
+        "publishedAt": "2022-01-11T11:00:07Z",
+        "content": "Emily Anthes contributed reporting.\r\nThe Daily is made by Lisa Tobin, Rachel Quester, Lynsea Garrison, Clare Toeniskoetter, Paige Cowett, Michael Simon Johnson, Brad Fisher, Larissa Anderson, Chris W… [+743 chars]"
+      },
+      {
+        "source": {
+          "id": "the-verge",
+          "name": "The Verge"
+        },
+        "author": "Makena Kelly",
+        "title": "White House warns ‘small percentage’ of people can’t order its rapid COVID-19 tests",
+        "description": "The White House warned that a small percentage of people were unable to order rapid COVID-19 tests through the USPS.",
+        "url": "https://www.theverge.com/2022/1/18/22890031/white-house-rapid-covid-tests-apartment-bug-usps",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/1vnQaFGpMPwi4hJLLjMkQyivvlk=/0x388:5418x3225/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23177510/1364441499.jpg",
+        "publishedAt": "2022-01-18T20:38:25Z",
+        "content": "The USPS will issue a statement\r\nPhoto by Anna Moneymaker/Getty Images\r\nNearly a month after President Joe Biden first announced that Americans would be able to order rapid at-home COVID-19 tests for… [+1215 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Blogspot.com"
+        },
+        "author": "noreply@blogger.com (Unknown)",
+        "title": "WATCH: WORLD RINGS IN NEW YEAR UNDER COVID CLOUD",
+        "description": "The world began on Friday with the inauguration of 2022 after another turbulent and pandemic-ridden year, limited by new restrictions, a rising number of cases, and a…",
+        "url": "https://techncruncher.blogspot.com/2021/12/watch-world-rings-in-new-year-under.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEht09l0PMBPd6x3C9NOCp4xYV2b093-Hi2dYDXyHuCnR0Nn5QLePNO9EhaAufwrv7k40YgladS48k4AbAVjmHYOnIkVrNrFHRjRFlh3zgDrOdsklIIihcmAlALszmSuI-w5secrpfL9PZJS31bLeHQHhJW5r0CHTH0aBJyyS1AaIEY6m96A7gUkZyTE7A=w1200-h630-p-k-no-nu",
+        "publishedAt": "2021-12-31T13:34:00Z",
+        "content": "The world began on Friday with the inauguration of 2022 after another turbulent and pandemic-ridden year, limited by new restrictions, a rising number of cases, and a slight glimmer of hope for bett… [+4312 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Blogspot.com"
+        },
+        "author": "noreply@blogger.com (Unknown)",
+        "title": "AUSTRIA ADDS A LOTTERY TO COVID VACCINE MANDATE",
+        "description": "<table><tr><td></td></tr><tr><td></td><td></td><td>A doctor vaccinates a person with a dose of the Pfizer-BioNTech COVID-19 vaccine in Vienna, Austria April 26, 2021. REUTERS/Lisi Niesner</td></tr>\r\n</table>Austria's conservative government said  Thursday it …",
+        "url": "https://techncruncher.blogspot.com/2022/01/austria-adds-lottery-to-covid-vaccine.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEjD9DfKyK2b79rG5Ilys16ICvFj8gM-D1xinKLWrfuATQMtl7gb6IjT7iF7VWUZcp3fgP9xqyPYc4LSFKbS_JI-tBevIjfsnmZq-nB5nsIumFuzipxHqLO8DEioKaJV-X9Mfd3movK0jfXLOKDIQxdqY9XTaxiQj0NWSwgUe0YxDFFt0Uq0h6rLAXOpXA=w1200-h630-p-k-no-nu",
+        "publishedAt": "2022-01-20T12:17:00Z",
+        "content": "Austria's conservative government said  Thursday it was launching a national lottery to encourage holdouts to get vaccinated against the coronavirus, hours before parliament passed legislation that w… [+1166 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Blogspot.com"
+        },
+        "author": "noreply@blogger.com (Unknown)",
+        "title": "SCIENTISTS TO TEST HIGH DEXAMETHASONE DOSES IN COVID-19 PATIENTS",
+        "description": "İmage Credit: AFP PhotoBritish scientists will investigate whether higher doses of a cheap and widely used steroid called dexamethasone might work better in severe COVID-19 patients compared to  standard lower doses, they said Thursday. , showed that it was a…",
+        "url": "https://techncruncher.blogspot.com/2021/12/scientists-to-test-high-dexamethasone.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEjEV-b0VLoWJN04uD-fUL7VdtaxmGntdSKcSSq4ndKT9Yd2bqIXg4_QSrrGC_pSZBR4VkN_y5Tf8xNgpj_UR2P52b-xFJYqJ9IzyoKgAq-u2Kx6ojfXaXTyVlhzOCeVjfqVwppwCbqGyQ6aMRRCeBtSHuSie4FgjLhRtZD-toRqiyYYznWV25CEhU4tkQ=w1200-h630-p-k-no-nu",
+        "publishedAt": "2021-12-31T12:05:00Z",
+        "content": "British scientists will investigate whether higher doses of a cheap and widely used steroid called dexamethasone might work better in severe COVID-19 patients compared to  standard lower doses, they … [+1037 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Blogspot.com"
+        },
+        "author": "noreply@blogger.com (Unknown)",
+        "title": "SUPERMAN, CINDERELLA AND MINIONS GIVE CHILDREN COVID-19 SHOTS",
+        "description": "<table><tr><td></td></tr><tr><td>A medical staff member wearing a costume looks at a child who receives a shot of the coronavirus disease (COVID-19) vaccine at a mass vaccination center in Prague, Czech Republic, January 8, 2022. REUTERS/David W Cerny\r\n</td><…",
+        "url": "https://techncruncher.blogspot.com/2022/01/superman-cinderella-and-minions-give.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEiFjlvWpXc1cx4-2poUJ0UgHQVjB-h-3fCXRFq_cThutpxh8rjxqxUkG4_kclaq8KuOQn16UZx8NrA2YKaxJXmg8DDT77tuXpbsC_-QOz-vYIyDH0urYV7Oaz4-fKU1sunVQIBWO1p7TPUzcggSrwjFNXxfmDpmU3Bci4V1kDyyaQBGluC8O92Q_K0eZQ=w1200-h630-p-k-no-nu",
+        "publishedAt": "2022-01-09T15:18:00Z",
+        "content": "Superman, Cinderella and Minions were among characters from films, comics and fairy tales who greeted children at a COVID-19 vaccination centre in Prague on Saturday to ease their nerves as they came… [+1341 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "Frances Robles",
+        "title": "Puerto Rico Faces Staggering Covid Case Explosion",
+        "description": "The island had a 4,600 percent increase in cases in recent weeks after mounting one of the nation’s most successful vaccination campaigns.",
+        "url": "https://www.nytimes.com/2022/01/02/us/coronavirus-puerto-rico.html",
+        "urlToImage": "https://static01.nyt.com/images/2021/12/31/us/31virus-puertorico-1/merlin_199787220_c00d0a86-5bcd-4e09-97fb-a0cab0958e71-facebookJumbo.jpg",
+        "publishedAt": "2022-01-02T10:00:12Z",
+        "content": "Armed with her vaccine passport and a giddy urge to celebrate the holiday season, Laura Delgado and 60,000 other people in Puerto Rico attended a Bad Bunny concert three weeks ago.\r\nThree days later,… [+849 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Grace Browne",
+        "title": "Politicians Say It’s Time to Live With Covid. Are You Ready?",
+        "description": "As countries declare endemicity and drop restrictions, how does a battered and bruised society embrace a sudden return to normality?",
+        "url": "https://www.wired.com/story/living-with-covid-new-normal/",
+        "urlToImage": "https://media.wired.com/photos/61f3601b76dc5967116777a6/191:100/w_1280,c_limit/Science_UK_GettyImages-1367167839.jpg",
+        "publishedAt": "2022-01-28T12:00:00Z",
+        "content": "Since January 27, England has dropped pretty much all its measures against Covid-19. Any person can saunter into any shop without a mask; work-from-home guidance has been scrapped; and all needs for … [+3325 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Steven Levy",
+        "title": "Why Joe Biden's Free Covid Test Website Wasn't a Dumpster Fire",
+        "description": "Plus: The rescue of healthcare.gov, a glimpse into an alternate universe, and more trouble in Russia.",
+        "url": "https://www.wired.com/story/plaintext-joe-biden-free-covid-test-website/",
+        "urlToImage": "https://media.wired.com/photos/61f358dccdd4f18de04f5b1c/191:100/w_1280,c_limit/Business_Covid%20Test-1365017034.jpg",
+        "publishedAt": "2022-01-28T13:00:00Z",
+        "content": "They decided that the project should be sited and built at the United States Postal Service, which not only had the national database of valid addresses, but would ultimately deliver the packages. Wh… [+2805 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Lifehacker.com"
+        },
+        "author": "Meredith Dietz",
+        "title": "What to Know About the CDC’s New, Shorter Isolation Guidelines",
+        "description": "As Omicron cases continue to surge in the U.S., the the Centers for Disease Control and Prevention is shortening the recommended time for isolation from 10 days to five days for anyone who has tested positive for COVID-19—as long as they are asymptomatic. Aft…",
+        "url": "https://lifehacker.com/what-to-know-about-the-cdc-s-new-shorter-isolation-gui-1848275978",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/8d18fad76aee6ecb799a333c069fcf14.jpg",
+        "publishedAt": "2021-12-28T18:30:00Z",
+        "content": "As Omicron cases continue to surge in the U.S., the the Centers for Disease Control and Prevention is shortening the recommended time for isolation from 10 days to five days for anyone who has tested… [+3465 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Lifehacker.com"
+        },
+        "author": "Beth Skwarecki",
+        "title": "Here’s When to Get Your Older Kids Their Booster Shot",
+        "description": "Teenagers are now eligible for booster doses of their COVID-19 vaccine, the CDC has announced. Until now, boosters were only for adults aged 18 and up. Children with weakened immune systems can now also get a third primary dose, even if they are not old enoug…",
+        "url": "https://lifehacker.com/here-s-when-to-get-your-older-kids-their-booster-shot-1848313883",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1bd81c511e4fb7b5a4b4f2ddd6252c06.jpg",
+        "publishedAt": "2022-01-06T19:00:00Z",
+        "content": "Teenagers are now eligible for booster doses of their COVID-19 vaccine, the CDC has announced. Until now, boosters were only for adults aged 18 and up. Children with weakened immune systems can now a… [+1761 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "Covid Wave Dampens New Year Celebrations Worldwide",
+        "description": "Countries rattled by Omicron mark the end of 2021 with subdued celebrations, or none at all. In Australia, Sydney’s annual fireworks show went on, but other cities canceled festivities.",
+        "url": "https://www.nytimes.com/live/2021/12/31/world/omicron-covid-vaccine-tests",
+        "urlToImage": "https://static01.nyt.com/images/2021/12/31/multimedia/31-virusbrief-sydneyfireworks/31-virusbrief-sydneyfireworks-facebookJumbo.jpg",
+        "publishedAt": "2021-12-31T10:10:42Z",
+        "content": "As the Omicron variant drives known coronavirus infections to their highest levels of the pandemic in many parts of the world, major cities where caseloads are rising swiftly have scaled down or canc… [+3419 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "Covid Live Updates: U.S. Testing Problems Multiply",
+        "description": "The waits at testing centers are often hours long, pharmacies can barely keep at-home tests on shelves and Omicron may be harder to detect. Oregon, facing what Gov. Kate Brown says is “a critical point,” is activating the National Guard to help strained hospi…",
+        "url": "https://www.nytimes.com/live/2022/01/08/world/omicron-covid-vaccine-tests",
+        "urlToImage": "https://static01.nyt.com/images/2022/01/07/us/07virus-briefing-us-testing-problems/07virus-briefing-us-testing-problems-facebookJumbo.jpg",
+        "publishedAt": "2022-01-08T14:52:41Z",
+        "content": "Many Americans have been waiting in long lines at free testing sites since before the Christmas and New Years holiday rush. Plenty of others are avoiding the lines and paying $20 or more for over-the… [+3978 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Times"
+        },
+        "author": "Whet Moser",
+        "title": "Covid, China, Trump: Your Monday Evening Briefing",
+        "description": "Here’s what you need to know at the end of the day.",
+        "url": "https://www.nytimes.com/2022/01/17/briefing/covid-china-trump-your-monday-evening-briefing.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/01/17/multimedia/17evening-briefing-CDC-PROMO/17evening-briefing-CDC-facebookJumbo.jpg",
+        "publishedAt": "2022-01-17T22:52:13Z",
+        "content": "4. The Texas synagogue attacker had mental health issues, his brother said.\r\nMalik Faisal Akram, a 44-year-old from Blackburn in northwestern England, was killed after an 11-hour standoff at the syna… [+767 chars]"
+      }
+    ]
+  }
+  

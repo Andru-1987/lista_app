@@ -6,12 +6,19 @@ const ClockFrame=styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Noto+Sans+JP:wght@100&family=Rampart+One&display=swap');
     display:flex;
     justify-content:center;
+    align-items:center;
     width:100%;
-
     font-family: 'Josefin Slab', serif;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Rampart One', cursive;
     cursor:pointer;
+    font-size:3rem;
+
+    @media (max-width:800px){
+        
+        font-size:2rem;
+      }
+      
 `
 
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const useClock=()=>{
 
     const [time,setTime]=useState(new Date().toLocaleTimeString());
-    const [show,setShow]=useState(true);
+    const [show,setShow]=useState(false);
 
     const timeSetter=()=>{
         setTime(new Date().toLocaleTimeString());
@@ -18,7 +18,6 @@ const useClock=()=>{
     })
 
     const displayClock=()=>{
-        console.log('show  clock');
         setShow(prevState=>!prevState);
 
     };

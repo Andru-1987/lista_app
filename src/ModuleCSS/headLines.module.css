@@ -1,0 +1,30 @@
+.container{
+    width:100%;
+    height: 100%;
+
+    display:grid;
+    grid-template-columns:1fr 3fr;
+    grid-template-rows: 1fr 9fr;
+    
+}
+
+.headerInput{
+    grid-column: 2/2;
+    grid-row: 1;
+    width: 100%;
+    align-items: flex-end;
+    
+    
+}
+
+.div{
+    grid-row: 1/3;
+    height: 100%;
+    
+}
+
+.divNews{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    
+}

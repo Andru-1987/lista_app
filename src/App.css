@@ -6,18 +6,18 @@
   height: 100vh;
   background-color: #fff;
   display: grid;
-  gap:1rem;
-  grid-template-columns: 1fr 2fr 2fr;
+  gap:4px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 10fr;
   padding-top: 20px;
-  
 
 }
 
 .App-logo {
-  height: 20vmin;
-  
+  height: 20vh;
+  margin:0px;
   pointer-events: none;
- background: transparent;
+  background: transparent;
 }
 
 
@@ -52,8 +52,11 @@
 
 .trans{
   animation: trans 1s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  padding:20px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
+  padding:5px;
+  display:flex;
+  align-items:center;
+
 }
 .trans p{
   font-family: 'Josefin Slab', serif;
@@ -61,3 +64,8 @@
   font-family: 'Rampart One', cursive;
 }
 
+@media (max-width:800px){
+  .trans{
+    flex-direction: column;
+  }
+}

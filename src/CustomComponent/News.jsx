@@ -23,8 +23,6 @@ function News({dataQuery,dataNews}){
 
     useEffect(()=>{
         const options={
-            // method:'GET',
-            // mode:'cors',
             headers:{
                 // "X-Api-Key":'1662d5d08e494198ae67c2906922804f',
                 "X-Api-Key": process.env.REACT_APP_KEY_API,

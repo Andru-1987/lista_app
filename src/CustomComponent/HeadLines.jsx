@@ -7,6 +7,7 @@ import News from "./News";
 
 
 
+
 function HeadLines(){
 
     
@@ -15,13 +16,15 @@ function HeadLines(){
     // Filtros
     const [dataNews,setDataNews]=useState(initData);
 
+
+
     return (
             <div className={styles.container}>
                 <div className={styles.headerInput}>
                     {/* EL input del filtro de la query */}
                     <HeaderNews setDataQuery={setDataQuery}/>
                 </div>
-                <div className={styles.div}>
+                <div className={styles.divisor}>
                     {/* filtro de data adicional */}
                     <HeadLineFilter dataNews={dataNews} setDataNews={setDataNews}/>
                 </div>

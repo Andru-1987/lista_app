@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react';
 const options={
     method:'GET',
     headers:{
+        // "X-Api-Key":'1662d5d08e494198ae67c2906922804f'
         "X-Api-Key": process.env.REACT_APP_KEY_API,
         "Access-Control-Allow-Origin" : "*" ,
     }
@@ -11,14 +12,14 @@ const options={
 
 function useData(URL){
     const [fetchData,setFetchData]=useState(null);
-    const [isPending,setIsPending]=useState(true);
-    const [error,setError]=useState(null);
-
-    
-
+ 
     const getData=async (URL)=>{
+
+        let data={};
+        
         try{
-            const response=await fetch(URL,options)
+            const response=await fetch(URL,options);
+
             if(!response.ok){
                 throw {
                     error:true,
@@ -26,23 +27,26 @@ function useData(URL){
                     statusText:!response.statusText?'Ocurrió un error':response.statusText,
                 }
             }
-            const data=await response.json();
+
+            data=await response.json();
             setFetchData(data);
-            setIsPending(false);
-            setError({error:false})
+        
         }
         catch(error){
-            setIsPending(true)
-            setError(error);
+            console.log(error);
         }
-    }
+    
+        return data;
+    };
+
 
     useEffect(()=>{
-        getData(URL)
-    },[])
-    
+        getData(URL);
 
-    return {fetchData:fetchData,isPending:isPending,error:error}
+    },[URL])
+
+
+    return fetchData;
 }
 
 

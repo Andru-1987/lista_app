@@ -1,80 +1,86 @@
-import React, { useEffect, useState } from "react";
+import React, { useState,useEffect } from "react";
 import style from '../CustomComponent/CompoNewsModuleCSS/newsDisplay.module.css';
-import MainItem from '../CustomComponent/CompoNews/MainItem'
-import ItemNews from '../CustomComponent/CompoNews/ItemNews'
+import MainItem from '../CustomComponent/CompoNews/MainItem';
+import ItemNews from '../CustomComponent/CompoNews/ItemNews';
 
-
-
-
-
-
-const options={
-    method:'GET',
-    headers:{
-        // "X-Api-Key": process.env.REACT_APP_KEY_API,
-        "X-Api-Key":'1662d5d08e494198ae67c2906922804f',
-        "Access-Control-Allow-Origin" : "*" ,
-    }
-}
 
 
 
 function News({dataQuery,dataNews}){
-    let data=require('../dataSource/data.json');
-    
-    const [news,setNews]=useState(data.articles);
-    const [item,setItem]=useState(data.articles[0]);
-    const [newsIdx,setNewsIdx]=useState(2);
-    
-    
-    // URL DEFAULT
-    let URL='';
-  
+    let URL;
     if(dataNews.news==='everything'){
         URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&from=${dataNews.dates.from}&to=${dataNews.dates.to}&language=${dataNews.language}`
     }else{
         URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&country=${dataNews.country}&category=${dataNews.category}`
     }
+  
+    
+    const [news,setNews]=useState(null);
+    const [item,setItem]=useState(null);
+    const [newsIdx,setNewsIdx]=useState(-1);
+    
 
 
-    const getData=async (URL)=>{
-        try{
-            const response=await fetch(URL,options);
+    useEffect(()=>{
+        const options={
+            method:'GET',
+            headers:{
+                // "X-Api-Key":'1662d5d08e494198ae67c2906922804f'
+                "X-Api-Key": process.env.REACT_APP_KEY_API,
+                "Access-Control-Allow-Origin" : "*" ,
+            }
+        }
+        const getData=async (URL)=>{
 
-            if(!response.ok){
-                throw {
-                    error:true,
-                    status:response.status,
-                    statusText:!response.statusText?'Ocurrió un error':response.statusText,
+            let data={};
+            
+            try{
+                const response=await fetch(URL,options);
+    
+                if(!response.ok){
+                    throw {
+                        error:true,
+                        status:response.status,
+                        statusText:!response.statusText?'Ocurrió un error':response.statusText,
+                    }
                 }
-            };
-            setNews(await response.json());
-        }
-        catch(e){
-        console.log(e)        
-        }
+    
+                data=await response.json();
+                setNews(data.articles);
+            }
+            catch(error){
+                console.log(error);
+            }
+        
+        };
+
+        getData(URL);
+        
+
+    },[dataQuery]);
+    
+    const imageStyle={
+        width:'100%',
+        hight:'100%'
     }
 
-
-
-    // useEffect(()=>{
-    //     // console.log(news);
-    //     // console.log(URL);
-    //     // // getData(URL);
-    //     // console.log(news);
-    // },[dataQuery])
-
-    
+    console.log(item);
 
     return (
 
         <div className={style.newsContainer}>
-            <MainItem item={item}/>
+            {item===null?
+            <div>
+            <img src={'../cat.png'} style={imageStyle}/>
+            <h2>No News selected</h2>
+            </div>
+            
+            :<MainItem item={item}/>}
             <div className={style.mainPreview}>
-                {news.map((item,index)=>(<ItemNews key={index} 
+                {news!==null? news.map((item,index)=>(<ItemNews key={index} 
                 item={item} setItem={setItem} 
                 newsIdx={newsIdx} setNewsIdx={setNewsIdx} index={index}
-                />))}
+                />)):<h1>No news yet</h1>}
             </div>
         </div>
     )

@@ -1,29 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Noto+Sans+JP:wght@100&family=Rampart+One&display=swap');
 
 .App {
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #fff;
+  
   display: grid;
-  gap:4px;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 10fr;
-  padding-top: 20px;
+  gap:10px;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 15% 85%;
+  margin-top: 10px;
+  
+  text-align: center;
 
+  width: 90%;
+  height: 100%;
+
+  
+  
 }
 
-.App-logo {
-  height: 20vh;
+.logo {
+  height: 15vh;
   margin:0px;
   pointer-events: none;
   background: transparent;
 }
 
 
+.Logo-Data{
+
+  animation: Logo-DataTrans 1s ease-in-out;
+  display:flex;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
+  /* padding:5px; */
+  box-sizing: border-box;
+  
+
+}
+.Logo-Data p{
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Rampart One', cursive;
+}
+
+@media (max-width:800px){
+  .Logo-Data{
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -38,7 +66,7 @@
   }
 }
 
-@keyframes trans {
+@keyframes Logo-DataTrans {
   
   from{
     transform: translateX(-900px) rotate(0deg);
@@ -50,22 +78,3 @@
 
 
 
-.trans{
-  animation: trans 1s ease-in-out;
-  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
-  padding:5px;
-  display:flex;
-  align-items:center;
-
-}
-.trans p{
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-family: 'Rampart One', cursive;
-}
-
-@media (max-width:800px){
-  .trans{
-    flex-direction: column;
-  }
-}

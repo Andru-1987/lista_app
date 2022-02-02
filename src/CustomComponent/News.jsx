@@ -32,6 +32,7 @@ function News({dataQuery,dataNews}){
                 "Access-Control-Allow-Origin" : "*" ,
             }
         }
+        
         const getData=async (URL)=>{
 
             let data={};
@@ -61,12 +62,13 @@ function News({dataQuery,dataNews}){
 
     },[dataQuery]);
     
+
     const imageStyle={
         width:'100%',
         hight:'100%'
     }
 
-    console.log(item);
+
 
     return (
 

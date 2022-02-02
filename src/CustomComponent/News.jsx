@@ -28,7 +28,7 @@ function News({dataQuery,dataNews}){
             headers:{
                 // "X-Api-Key":'1662d5d08e494198ae67c2906922804f',
                 "X-Api-Key": process.env.REACT_APP_KEY_API,
-                "Access-Control-Allow-Origin" : "*" ,
+                // "Access-Control-Allow-Origin" : "*" ,
             }
         }
         

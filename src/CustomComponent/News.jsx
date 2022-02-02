@@ -9,9 +9,9 @@ import ItemNews from '../CustomComponent/CompoNews/ItemNews';
 function News({dataQuery,dataNews}){
     let URL;
     if(dataNews.news==='everything'){
-        URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&from=${dataNews.dates.from}&to=${dataNews.dates.to}&language=${dataNews.language}`
+        URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&from=${dataNews.dates.from}&to=${dataNews.dates.to}&language=${dataNews.language}&apiKey=${process.env.REACT_APP_KEY_API}`
     }else{
-        URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&country=${dataNews.country}&category=${dataNews.category}`
+        URL=`${process.env.REACT_APP_URLBASE}v2/${dataNews.news}?q=${dataQuery}&country=${dataNews.country}&category=${dataNews.category}&apiKey=${process.env.REACT_APP_KEY_API}`
     }
   
     
@@ -22,20 +22,14 @@ function News({dataQuery,dataNews}){
 
 
     useEffect(()=>{
-        const options={
-            headers:{
-                // "X-Api-Key":'1662d5d08e494198ae67c2906922804f',
-                "X-Api-Key": process.env.REACT_APP_KEY_API,
-                // "Access-Control-Allow-Origin" : "*" ,
-            }
-        }
+
         
         const getData=async (URL)=>{
 
             let data={};
             
             try{
-                const response=await fetch(URL,options);
+                const response=await fetch(URL);
     
                 if(!response.ok){
                     throw {
